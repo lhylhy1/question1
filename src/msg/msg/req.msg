@@ -1,1 +1,2 @@
 string data
+string combined_data

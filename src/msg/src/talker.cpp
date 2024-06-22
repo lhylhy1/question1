@@ -21,15 +21,20 @@ int main(int argc, char **argv)
     {
         msg::req msg;
 
-        std::string input;
-        std::cout << "请输入字符串: ";
+        std::string input1, input2;
+        std::cout << "请输入第一个字符串: ";
         std::getline(std::cin, input); // 从键盘读取字符串
+        std::cout << "请输入第二个字符串: ";
+        std::getline(std::cin, input); // 从键盘读取字符串
+
+        // 拼接字符串
+        std::string_combined = input1 + input2;
 
         if (!ros::ok()) {
             break; // 如果ROS系统请求关闭（例如，通过Ctrl+C），则退出循环
         }
 
-        msg.data = input;
+        msg.data = string_combined;
 
         ROS_INFO("%s", msg.data.c_str());
 
