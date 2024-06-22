@@ -7,3 +7,4 @@
 subdirs("gtest")
 subdirs("msg")
 subdirs("srv")
+subdirs("control_joint")

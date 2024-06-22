@@ -55,7 +55,9 @@
         "xlocnum": "cpp",
         "xloctime": "cpp",
         "xmemory": "cpp",
-        "xtr1common": "cpp"
+        "xtr1common": "cpp",
+        "unordered_map": "cpp",
+        "unordered_set": "cpp"
     },
     "cmake.configureOnOpen": true
 }

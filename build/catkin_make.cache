@@ -1,2 +1,2 @@
-msg:srv
+control_joint:msg:srv
 -DCMAKE_BUILD_TYPE=RelWithDebInfo -DCATKIN_DEVEL_PREFIX=/home/lsklsk/task/question1/devel -DCMAKE_INSTALL_PREFIX=/home/lsklsk/task/question1/install -G Unix Makefiles
