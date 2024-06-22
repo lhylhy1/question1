@@ -21,7 +21,7 @@ int main(int argc, char **argv)
     {
         msg::req msg;
 
-        std::string input1, input2， string_combined;
+        std::string input1, input2, string_combined;
         std::cout << "请输入第一个字符串: ";
         std::getline(std::cin, input1); // 从键盘读取字符串
         std::cout << "请输入第二个字符串: ";

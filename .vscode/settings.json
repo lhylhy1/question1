@@ -56,5 +56,6 @@
         "xloctime": "cpp",
         "xmemory": "cpp",
         "xtr1common": "cpp"
-    }
+    },
+    "cmake.configureOnOpen": true
 }

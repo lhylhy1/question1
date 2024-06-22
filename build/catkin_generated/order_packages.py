@@ -2,4 +2,4 @@
 source_root_dir = '/home/lsklsk/task/question1/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/lsklsk/task/question1/devel;/opt/ros/noetic'.split(';') if '/home/lsklsk/task/question1/devel;/opt/ros/noetic' != '' else []
+underlay_workspaces = '/opt/ros/noetic'.split(';') if '/opt/ros/noetic' != '' else []
