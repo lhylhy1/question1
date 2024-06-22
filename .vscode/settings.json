@@ -59,5 +59,6 @@
         "unordered_map": "cpp",
         "unordered_set": "cpp"
     },
-    "cmake.configureOnOpen": true
+    "cmake.configureOnOpen": true,
+    "cmake.ignoreCMakeListsMissing": true
 }
