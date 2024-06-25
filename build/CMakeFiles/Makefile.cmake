@@ -25,6 +25,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "srv/catkin_generated/srv-msg-extras.cmake.develspace.in"
   "srv/catkin_generated/srv-msg-extras.cmake.installspace.in"
   "srv/cmake/srv-genmsg.cmake"
+  "straight_leg/catkin_generated/ordered_paths.cmake"
+  "straight_leg/catkin_generated/package.cmake"
   "/home/lsklsk/task/question1/devel/share/msg/cmake/msg-msg-paths.cmake"
   "/home/lsklsk/task/question1/devel/share/srv/cmake/srv-msg-paths.cmake"
   "/home/lsklsk/task/question1/src/CMakeLists.txt"
@@ -34,6 +36,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/home/lsklsk/task/question1/src/msg/package.xml"
   "/home/lsklsk/task/question1/src/srv/CMakeLists.txt"
   "/home/lsklsk/task/question1/src/srv/package.xml"
+  "/home/lsklsk/task/question1/src/straight_leg/CMakeLists.txt"
+  "/home/lsklsk/task/question1/src/straight_leg/package.xml"
   "/opt/ros/noetic/share/catkin/cmake/all.cmake"
   "/opt/ros/noetic/share/catkin/cmake/assert.cmake"
   "/opt/ros/noetic/share/catkin/cmake/atomic_configure_file.cmake"
@@ -230,6 +234,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
   "msg/CMakeFiles/CMakeDirectoryInformation.cmake"
   "srv/CMakeFiles/CMakeDirectoryInformation.cmake"
   "control_joint/CMakeFiles/CMakeDirectoryInformation.cmake"
+  "straight_leg/CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
 # Dependency information for all targets:
@@ -298,4 +303,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "control_joint/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/DependInfo.cmake"
   "control_joint/CMakeFiles/control.dir/DependInfo.cmake"
   "control_joint/CMakeFiles/listen.dir/DependInfo.cmake"
+  "straight_leg/CMakeFiles/leg.dir/DependInfo.cmake"
   )

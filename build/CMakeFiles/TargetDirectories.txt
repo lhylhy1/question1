@@ -111,3 +111,11 @@
 /home/lsklsk/task/question1/build/control_joint/CMakeFiles/control.dir
 /home/lsklsk/task/question1/build/control_joint/CMakeFiles/listen.dir
 /home/lsklsk/task/question1/build/control_joint/CMakeFiles/test.dir
+/home/lsklsk/task/question1/build/straight_leg/CMakeFiles/install/strip.dir
+/home/lsklsk/task/question1/build/straight_leg/CMakeFiles/install/local.dir
+/home/lsklsk/task/question1/build/straight_leg/CMakeFiles/install.dir
+/home/lsklsk/task/question1/build/straight_leg/CMakeFiles/list_install_components.dir
+/home/lsklsk/task/question1/build/straight_leg/CMakeFiles/rebuild_cache.dir
+/home/lsklsk/task/question1/build/straight_leg/CMakeFiles/edit_cache.dir
+/home/lsklsk/task/question1/build/straight_leg/CMakeFiles/test.dir
+/home/lsklsk/task/question1/build/straight_leg/CMakeFiles/leg.dir

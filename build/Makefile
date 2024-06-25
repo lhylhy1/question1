@@ -999,6 +999,19 @@ listen/fast:
 	$(MAKE) -f control_joint/CMakeFiles/listen.dir/build.make control_joint/CMakeFiles/listen.dir/build
 .PHONY : listen/fast
 
+#=============================================================================
+# Target rules for targets named leg
+
+# Build rule for target.
+leg: cmake_check_build_system
+	$(MAKE) -f CMakeFiles/Makefile2 leg
+.PHONY : leg
+
+# fast build rule for target.
+leg/fast:
+	$(MAKE) -f straight_leg/CMakeFiles/leg.dir/build.make straight_leg/CMakeFiles/leg.dir/build
+.PHONY : leg/fast
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -1076,6 +1089,7 @@ help:
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... control"
 	@echo "... listen"
+	@echo "... leg"
 .PHONY : help
 
 
