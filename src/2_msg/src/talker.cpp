@@ -1,3 +1,7 @@
+/*
+    这是第二题发布者代码
+*/
+
 #include "ros/ros.h"
 #include "msg/req.h"
 #include <iostream> // 用于std::getline
