@@ -1,0 +1,8 @@
+prefix=/home/lsklsk/task/question1/install
+
+Name: srv
+Description: Description of srv
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

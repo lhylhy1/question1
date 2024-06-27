@@ -5,7 +5,7 @@
 # This file includes the relevant testing commands required for 
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
-subdirs("msg")
-subdirs("srv")
-subdirs("control_joint")
-subdirs("straight_leg")
+subdirs("2_msg")
+subdirs("1_srv")
+subdirs("3_control_joint")
+subdirs("4_straight_leg")

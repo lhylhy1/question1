@@ -131,10 +131,10 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/lsklsk/task/question1/build/gtest/cmake_install.cmake")
-  include("/home/lsklsk/task/question1/build/msg/cmake_install.cmake")
-  include("/home/lsklsk/task/question1/build/srv/cmake_install.cmake")
-  include("/home/lsklsk/task/question1/build/control_joint/cmake_install.cmake")
-  include("/home/lsklsk/task/question1/build/straight_leg/cmake_install.cmake")
+  include("/home/lsklsk/task/question1/build/2_msg/cmake_install.cmake")
+  include("/home/lsklsk/task/question1/build/1_srv/cmake_install.cmake")
+  include("/home/lsklsk/task/question1/build/3_control_joint/cmake_install.cmake")
+  include("/home/lsklsk/task/question1/build/4_straight_leg/cmake_install.cmake")
 
 endif()
 

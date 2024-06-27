@@ -398,10 +398,10 @@ _gtest_SOURCES:FILEPATH=/usr/src/gtest/src/gtest.cc
 catkin_DIR:PATH=/opt/ros/noetic/share/catkin/cmake
 
 //Value Computed by CMake
-control_joint_BINARY_DIR:STATIC=/home/lsklsk/task/question1/build/control_joint
+control_joint_BINARY_DIR:STATIC=/home/lsklsk/task/question1/build/3_control_joint
 
 //Value Computed by CMake
-control_joint_SOURCE_DIR:STATIC=/home/lsklsk/task/question1/src/control_joint
+control_joint_SOURCE_DIR:STATIC=/home/lsklsk/task/question1/src/3_control_joint
 
 //The directory containing a CMake configuration file for cpp_common.
 cpp_common_DIR:PATH=/opt/ros/noetic/share/cpp_common/cmake
@@ -483,10 +483,10 @@ message_generation_DIR:PATH=/opt/ros/noetic/share/message_generation/cmake
 message_runtime_DIR:PATH=/opt/ros/noetic/share/message_runtime/cmake
 
 //Value Computed by CMake
-msg_BINARY_DIR:STATIC=/home/lsklsk/task/question1/build/msg
+msg_BINARY_DIR:STATIC=/home/lsklsk/task/question1/build/2_msg
 
 //Value Computed by CMake
-msg_SOURCE_DIR:STATIC=/home/lsklsk/task/question1/src/msg
+msg_SOURCE_DIR:STATIC=/home/lsklsk/task/question1/src/2_msg
 
 //The directory containing a CMake configuration file for rosconsole.
 rosconsole_DIR:PATH=/opt/ros/noetic/share/rosconsole/cmake
@@ -513,19 +513,19 @@ rostime_DIR:PATH=/opt/ros/noetic/share/rostime/cmake
 sensor_msgs_DIR:PATH=/opt/ros/noetic/share/sensor_msgs/cmake
 
 //Value Computed by CMake
-srv_BINARY_DIR:STATIC=/home/lsklsk/task/question1/build/srv
+srv_BINARY_DIR:STATIC=/home/lsklsk/task/question1/build/1_srv
 
 //Value Computed by CMake
-srv_SOURCE_DIR:STATIC=/home/lsklsk/task/question1/src/srv
+srv_SOURCE_DIR:STATIC=/home/lsklsk/task/question1/src/1_srv
 
 //The directory containing a CMake configuration file for std_msgs.
 std_msgs_DIR:PATH=/opt/ros/noetic/share/std_msgs/cmake
 
 //Value Computed by CMake
-straight_leg_BINARY_DIR:STATIC=/home/lsklsk/task/question1/build/straight_leg
+straight_leg_BINARY_DIR:STATIC=/home/lsklsk/task/question1/build/4_straight_leg
 
 //Value Computed by CMake
-straight_leg_SOURCE_DIR:STATIC=/home/lsklsk/task/question1/src/straight_leg
+straight_leg_SOURCE_DIR:STATIC=/home/lsklsk/task/question1/src/4_straight_leg
 
 //The directory containing a CMake configuration file for xmlrpcpp.
 xmlrpcpp_DIR:PATH=/opt/ros/noetic/share/xmlrpcpp/cmake
