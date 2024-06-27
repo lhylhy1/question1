@@ -170,7 +170,6 @@ clean: 4_straight_leg/clean
 
 # Recursive "all" directory target.
 3_control_joint/all: 3_control_joint/CMakeFiles/control.dir/all
-3_control_joint/all: 3_control_joint/CMakeFiles/listen.dir/all
 
 .PHONY : 3_control_joint/all
 
@@ -191,7 +190,6 @@ clean: 4_straight_leg/clean
 3_control_joint/clean: 3_control_joint/CMakeFiles/geometry_msgs_generate_messages_cpp.dir/clean
 3_control_joint/clean: 3_control_joint/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir/clean
 3_control_joint/clean: 3_control_joint/CMakeFiles/control.dir/clean
-3_control_joint/clean: 3_control_joint/CMakeFiles/listen.dir/clean
 
 .PHONY : 3_control_joint/clean
 
@@ -656,7 +654,7 @@ msg_gencpp: 2_msg/CMakeFiles/msg_gencpp.dir/rule
 2_msg/CMakeFiles/listener.dir/all: 2_msg/CMakeFiles/msg_generate_messages_cpp.dir/all
 	$(MAKE) -f 2_msg/CMakeFiles/listener.dir/build.make 2_msg/CMakeFiles/listener.dir/depend
 	$(MAKE) -f 2_msg/CMakeFiles/listener.dir/build.make 2_msg/CMakeFiles/listener.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=17,18 "Built target listener"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=15,16 "Built target listener"
 .PHONY : 2_msg/CMakeFiles/listener.dir/all
 
 # Build rule for subdir invocation for target.
@@ -954,7 +952,7 @@ msg_gennodejs: 2_msg/CMakeFiles/msg_gennodejs.dir/rule
 2_msg/CMakeFiles/msg_generate_messages_lisp.dir/all: 2_msg/CMakeFiles/_msg_generate_messages_check_deps_req.dir/all
 	$(MAKE) -f 2_msg/CMakeFiles/msg_generate_messages_lisp.dir/build.make 2_msg/CMakeFiles/msg_generate_messages_lisp.dir/depend
 	$(MAKE) -f 2_msg/CMakeFiles/msg_generate_messages_lisp.dir/build.make 2_msg/CMakeFiles/msg_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=22 "Built target msg_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=20 "Built target msg_generate_messages_lisp"
 .PHONY : 2_msg/CMakeFiles/msg_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1094,7 +1092,7 @@ roscpp_generate_messages_nodejs: 2_msg/CMakeFiles/roscpp_generate_messages_nodej
 2_msg/CMakeFiles/msg_generate_messages_cpp.dir/all: 2_msg/CMakeFiles/_msg_generate_messages_check_deps_req.dir/all
 	$(MAKE) -f 2_msg/CMakeFiles/msg_generate_messages_cpp.dir/build.make 2_msg/CMakeFiles/msg_generate_messages_cpp.dir/depend
 	$(MAKE) -f 2_msg/CMakeFiles/msg_generate_messages_cpp.dir/build.make 2_msg/CMakeFiles/msg_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=19 "Built target msg_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=17 "Built target msg_generate_messages_cpp"
 .PHONY : 2_msg/CMakeFiles/msg_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1122,7 +1120,7 @@ msg_generate_messages_cpp: 2_msg/CMakeFiles/msg_generate_messages_cpp.dir/rule
 2_msg/CMakeFiles/msg_generate_messages_eus.dir/all: 2_msg/CMakeFiles/_msg_generate_messages_check_deps_req.dir/all
 	$(MAKE) -f 2_msg/CMakeFiles/msg_generate_messages_eus.dir/build.make 2_msg/CMakeFiles/msg_generate_messages_eus.dir/depend
 	$(MAKE) -f 2_msg/CMakeFiles/msg_generate_messages_eus.dir/build.make 2_msg/CMakeFiles/msg_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=20,21 "Built target msg_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=18,19 "Built target msg_generate_messages_eus"
 .PHONY : 2_msg/CMakeFiles/msg_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1177,7 +1175,7 @@ msg_genlisp: 2_msg/CMakeFiles/msg_genlisp.dir/rule
 2_msg/CMakeFiles/msg_generate_messages_nodejs.dir/all: 2_msg/CMakeFiles/std_msgs_generate_messages_nodejs.dir/all
 	$(MAKE) -f 2_msg/CMakeFiles/msg_generate_messages_nodejs.dir/build.make 2_msg/CMakeFiles/msg_generate_messages_nodejs.dir/depend
 	$(MAKE) -f 2_msg/CMakeFiles/msg_generate_messages_nodejs.dir/build.make 2_msg/CMakeFiles/msg_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=23 "Built target msg_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=21 "Built target msg_generate_messages_nodejs"
 .PHONY : 2_msg/CMakeFiles/msg_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1205,7 +1203,7 @@ msg_generate_messages_nodejs: 2_msg/CMakeFiles/msg_generate_messages_nodejs.dir/
 2_msg/CMakeFiles/msg_generate_messages_py.dir/all: 2_msg/CMakeFiles/_msg_generate_messages_check_deps_req.dir/all
 	$(MAKE) -f 2_msg/CMakeFiles/msg_generate_messages_py.dir/build.make 2_msg/CMakeFiles/msg_generate_messages_py.dir/depend
 	$(MAKE) -f 2_msg/CMakeFiles/msg_generate_messages_py.dir/build.make 2_msg/CMakeFiles/msg_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=24,25 "Built target msg_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=22,23 "Built target msg_generate_messages_py"
 .PHONY : 2_msg/CMakeFiles/msg_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1286,7 +1284,7 @@ std_msgs_generate_messages_nodejs: 2_msg/CMakeFiles/std_msgs_generate_messages_n
 2_msg/CMakeFiles/talker.dir/all: 2_msg/CMakeFiles/msg_generate_messages_cpp.dir/all
 	$(MAKE) -f 2_msg/CMakeFiles/talker.dir/build.make 2_msg/CMakeFiles/talker.dir/depend
 	$(MAKE) -f 2_msg/CMakeFiles/talker.dir/build.make 2_msg/CMakeFiles/talker.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=35,36 "Built target talker"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=33,34 "Built target talker"
 .PHONY : 2_msg/CMakeFiles/talker.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1425,7 +1423,7 @@ _srv_generate_messages_check_deps_communicate: 1_srv/CMakeFiles/_srv_generate_me
 1_srv/CMakeFiles/server.dir/all: 1_srv/CMakeFiles/srv_gencpp.dir/all
 	$(MAKE) -f 1_srv/CMakeFiles/server.dir/build.make 1_srv/CMakeFiles/server.dir/depend
 	$(MAKE) -f 1_srv/CMakeFiles/server.dir/build.make 1_srv/CMakeFiles/server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=26,27 "Built target server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=24,25 "Built target server"
 .PHONY : 1_srv/CMakeFiles/server.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1453,7 +1451,7 @@ server: 1_srv/CMakeFiles/server.dir/rule
 1_srv/CMakeFiles/srv_generate_messages_cpp.dir/all: 1_srv/CMakeFiles/_srv_generate_messages_check_deps_communicate.dir/all
 	$(MAKE) -f 1_srv/CMakeFiles/srv_generate_messages_cpp.dir/build.make 1_srv/CMakeFiles/srv_generate_messages_cpp.dir/depend
 	$(MAKE) -f 1_srv/CMakeFiles/srv_generate_messages_cpp.dir/build.make 1_srv/CMakeFiles/srv_generate_messages_cpp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=28 "Built target srv_generate_messages_cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=26 "Built target srv_generate_messages_cpp"
 .PHONY : 1_srv/CMakeFiles/srv_generate_messages_cpp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1481,7 +1479,7 @@ srv_generate_messages_cpp: 1_srv/CMakeFiles/srv_generate_messages_cpp.dir/rule
 1_srv/CMakeFiles/srv_generate_messages_py.dir/all: 1_srv/CMakeFiles/_srv_generate_messages_check_deps_communicate.dir/all
 	$(MAKE) -f 1_srv/CMakeFiles/srv_generate_messages_py.dir/build.make 1_srv/CMakeFiles/srv_generate_messages_py.dir/depend
 	$(MAKE) -f 1_srv/CMakeFiles/srv_generate_messages_py.dir/build.make 1_srv/CMakeFiles/srv_generate_messages_py.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=33,34 "Built target srv_generate_messages_py"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=31,32 "Built target srv_generate_messages_py"
 .PHONY : 1_srv/CMakeFiles/srv_generate_messages_py.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1563,7 +1561,7 @@ srv_gennodejs: 1_srv/CMakeFiles/srv_gennodejs.dir/rule
 1_srv/CMakeFiles/srv_generate_messages_lisp.dir/all: 1_srv/CMakeFiles/_srv_generate_messages_check_deps_communicate.dir/all
 	$(MAKE) -f 1_srv/CMakeFiles/srv_generate_messages_lisp.dir/build.make 1_srv/CMakeFiles/srv_generate_messages_lisp.dir/depend
 	$(MAKE) -f 1_srv/CMakeFiles/srv_generate_messages_lisp.dir/build.make 1_srv/CMakeFiles/srv_generate_messages_lisp.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=31 "Built target srv_generate_messages_lisp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=29 "Built target srv_generate_messages_lisp"
 .PHONY : 1_srv/CMakeFiles/srv_generate_messages_lisp.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1591,7 +1589,7 @@ srv_generate_messages_lisp: 1_srv/CMakeFiles/srv_generate_messages_lisp.dir/rule
 1_srv/CMakeFiles/srv_generate_messages_nodejs.dir/all: 1_srv/CMakeFiles/_srv_generate_messages_check_deps_communicate.dir/all
 	$(MAKE) -f 1_srv/CMakeFiles/srv_generate_messages_nodejs.dir/build.make 1_srv/CMakeFiles/srv_generate_messages_nodejs.dir/depend
 	$(MAKE) -f 1_srv/CMakeFiles/srv_generate_messages_nodejs.dir/build.make 1_srv/CMakeFiles/srv_generate_messages_nodejs.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=32 "Built target srv_generate_messages_nodejs"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=30 "Built target srv_generate_messages_nodejs"
 .PHONY : 1_srv/CMakeFiles/srv_generate_messages_nodejs.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1646,7 +1644,7 @@ srv_genlisp: 1_srv/CMakeFiles/srv_genlisp.dir/rule
 1_srv/CMakeFiles/srv_generate_messages_eus.dir/all: 1_srv/CMakeFiles/_srv_generate_messages_check_deps_communicate.dir/all
 	$(MAKE) -f 1_srv/CMakeFiles/srv_generate_messages_eus.dir/build.make 1_srv/CMakeFiles/srv_generate_messages_eus.dir/depend
 	$(MAKE) -f 1_srv/CMakeFiles/srv_generate_messages_eus.dir/build.make 1_srv/CMakeFiles/srv_generate_messages_eus.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=29,30 "Built target srv_generate_messages_eus"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=27,28 "Built target srv_generate_messages_eus"
 .PHONY : 1_srv/CMakeFiles/srv_generate_messages_eus.dir/all
 
 # Build rule for subdir invocation for target.
@@ -1989,33 +1987,6 @@ control: 3_control_joint/CMakeFiles/control.dir/rule
 3_control_joint/CMakeFiles/control.dir/clean:
 	$(MAKE) -f 3_control_joint/CMakeFiles/control.dir/build.make 3_control_joint/CMakeFiles/control.dir/clean
 .PHONY : 3_control_joint/CMakeFiles/control.dir/clean
-
-#=============================================================================
-# Target rules for target 3_control_joint/CMakeFiles/listen.dir
-
-# All Build rule for target.
-3_control_joint/CMakeFiles/listen.dir/all:
-	$(MAKE) -f 3_control_joint/CMakeFiles/listen.dir/build.make 3_control_joint/CMakeFiles/listen.dir/depend
-	$(MAKE) -f 3_control_joint/CMakeFiles/listen.dir/build.make 3_control_joint/CMakeFiles/listen.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/lsklsk/task/question1/build/CMakeFiles --progress-num=15,16 "Built target listen"
-.PHONY : 3_control_joint/CMakeFiles/listen.dir/all
-
-# Build rule for subdir invocation for target.
-3_control_joint/CMakeFiles/listen.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsklsk/task/question1/build/CMakeFiles 2
-	$(MAKE) -f CMakeFiles/Makefile2 3_control_joint/CMakeFiles/listen.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/lsklsk/task/question1/build/CMakeFiles 0
-.PHONY : 3_control_joint/CMakeFiles/listen.dir/rule
-
-# Convenience name for target.
-listen: 3_control_joint/CMakeFiles/listen.dir/rule
-
-.PHONY : listen
-
-# clean rule for target.
-3_control_joint/CMakeFiles/listen.dir/clean:
-	$(MAKE) -f 3_control_joint/CMakeFiles/listen.dir/build.make 3_control_joint/CMakeFiles/listen.dir/clean
-.PHONY : 3_control_joint/CMakeFiles/listen.dir/clean
 
 #=============================================================================
 # Target rules for target 4_straight_leg/CMakeFiles/leg.dir

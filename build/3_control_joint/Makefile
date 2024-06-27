@@ -78,28 +78,6 @@ list_install_components/fast: list_install_components
 
 .PHONY : list_install_components/fast
 
-# Special rule for the target rebuild_cache
-rebuild_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
-.PHONY : rebuild_cache
-
-# Special rule for the target rebuild_cache
-rebuild_cache/fast: rebuild_cache
-
-.PHONY : rebuild_cache/fast
-
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
@@ -134,6 +112,28 @@ test:
 test/fast: test
 
 .PHONY : test/fast
+
+# Special rule for the target rebuild_cache
+rebuild_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
+	/usr/bin/cmake -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+.PHONY : rebuild_cache
+
+# Special rule for the target rebuild_cache
+rebuild_cache/fast: rebuild_cache
+
+.PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	/usr/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -332,21 +332,6 @@ control/fast:
 	cd /home/lsklsk/task/question1/build && $(MAKE) -f 3_control_joint/CMakeFiles/control.dir/build.make 3_control_joint/CMakeFiles/control.dir/build
 .PHONY : control/fast
 
-# Convenience name for target.
-3_control_joint/CMakeFiles/listen.dir/rule:
-	cd /home/lsklsk/task/question1/build && $(MAKE) -f CMakeFiles/Makefile2 3_control_joint/CMakeFiles/listen.dir/rule
-.PHONY : 3_control_joint/CMakeFiles/listen.dir/rule
-
-# Convenience name for target.
-listen: 3_control_joint/CMakeFiles/listen.dir/rule
-
-.PHONY : listen
-
-# fast build rule for target.
-listen/fast:
-	cd /home/lsklsk/task/question1/build && $(MAKE) -f 3_control_joint/CMakeFiles/listen.dir/build.make 3_control_joint/CMakeFiles/listen.dir/build
-.PHONY : listen/fast
-
 src/control.o: src/control.cpp.o
 
 .PHONY : src/control.o
@@ -374,33 +359,6 @@ src/control.cpp.s:
 	cd /home/lsklsk/task/question1/build && $(MAKE) -f 3_control_joint/CMakeFiles/control.dir/build.make 3_control_joint/CMakeFiles/control.dir/src/control.cpp.s
 .PHONY : src/control.cpp.s
 
-src/listen.o: src/listen.cpp.o
-
-.PHONY : src/listen.o
-
-# target to build an object file
-src/listen.cpp.o:
-	cd /home/lsklsk/task/question1/build && $(MAKE) -f 3_control_joint/CMakeFiles/listen.dir/build.make 3_control_joint/CMakeFiles/listen.dir/src/listen.cpp.o
-.PHONY : src/listen.cpp.o
-
-src/listen.i: src/listen.cpp.i
-
-.PHONY : src/listen.i
-
-# target to preprocess a source file
-src/listen.cpp.i:
-	cd /home/lsklsk/task/question1/build && $(MAKE) -f 3_control_joint/CMakeFiles/listen.dir/build.make 3_control_joint/CMakeFiles/listen.dir/src/listen.cpp.i
-.PHONY : src/listen.cpp.i
-
-src/listen.s: src/listen.cpp.s
-
-.PHONY : src/listen.s
-
-# target to generate assembly for a file
-src/listen.cpp.s:
-	cd /home/lsklsk/task/question1/build && $(MAKE) -f 3_control_joint/CMakeFiles/listen.dir/build.make 3_control_joint/CMakeFiles/listen.dir/src/listen.cpp.s
-.PHONY : src/listen.cpp.s
-
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -409,8 +367,6 @@ help:
 	@echo "... depend"
 	@echo "... install/strip"
 	@echo "... list_install_components"
-	@echo "... rebuild_cache"
-	@echo "... edit_cache"
 	@echo "... sensor_msgs_generate_messages_cpp"
 	@echo "... sensor_msgs_generate_messages_eus"
 	@echo "... install/local"
@@ -424,14 +380,12 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... control"
-	@echo "... listen"
 	@echo "... test"
+	@echo "... rebuild_cache"
+	@echo "... edit_cache"
 	@echo "... src/control.o"
 	@echo "... src/control.i"
 	@echo "... src/control.s"
-	@echo "... src/listen.o"
-	@echo "... src/listen.i"
-	@echo "... src/listen.s"
 .PHONY : help
 
 

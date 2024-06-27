@@ -94,8 +94,6 @@
 /home/lsklsk/task/question1/build/1_srv/CMakeFiles/srv_genpy.dir
 /home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/install/strip.dir
 /home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/list_install_components.dir
-/home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/rebuild_cache.dir
-/home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/edit_cache.dir
 /home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/sensor_msgs_generate_messages_cpp.dir
 /home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/sensor_msgs_generate_messages_eus.dir
 /home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/install/local.dir
@@ -109,8 +107,9 @@
 /home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/geometry_msgs_generate_messages_cpp.dir
 /home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/geometry_msgs_generate_messages_nodejs.dir
 /home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/control.dir
-/home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/listen.dir
 /home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/test.dir
+/home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/rebuild_cache.dir
+/home/lsklsk/task/question1/build/3_control_joint/CMakeFiles/edit_cache.dir
 /home/lsklsk/task/question1/build/4_straight_leg/CMakeFiles/install/strip.dir
 /home/lsklsk/task/question1/build/4_straight_leg/CMakeFiles/install/local.dir
 /home/lsklsk/task/question1/build/4_straight_leg/CMakeFiles/install.dir

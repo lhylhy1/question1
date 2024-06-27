@@ -987,19 +987,6 @@ control/fast:
 .PHONY : control/fast
 
 #=============================================================================
-# Target rules for targets named listen
-
-# Build rule for target.
-listen: cmake_check_build_system
-	$(MAKE) -f CMakeFiles/Makefile2 listen
-.PHONY : listen
-
-# fast build rule for target.
-listen/fast:
-	$(MAKE) -f 3_control_joint/CMakeFiles/listen.dir/build.make 3_control_joint/CMakeFiles/listen.dir/build
-.PHONY : listen/fast
-
-#=============================================================================
 # Target rules for targets named leg
 
 # Build rule for target.
@@ -1088,7 +1075,6 @@ help:
 	@echo "... geometry_msgs_generate_messages_cpp"
 	@echo "... geometry_msgs_generate_messages_nodejs"
 	@echo "... control"
-	@echo "... listen"
 	@echo "... leg"
 .PHONY : help
 
